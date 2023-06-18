@@ -1,16 +1,16 @@
 {
   "item.irons_spellbooks.spell_book": "法器",
-  "item.irons_spellbooks.wimpy_spell_book": "无用的魔法书",
+  "item.irons_spellbooks.wimpy_spell_book": "无用之书",
   "item.irons_spellbooks.evoker_spell_book": "唤魔者魔典",
   "item.irons_spellbooks.illusioner_spell_book": "幻术师魔典",
-  "item.irons_spellbooks.rotten_spell_book": "破旧的法术书",
+  "item.irons_spellbooks.rotten_spell_book": "破旧之书",
   "item.irons_spellbooks.blaze_spell_book": "炽焰术士手册",
   "item.irons_spellbooks.dragonskin_spell_book": "终界秘典",
   "item.irons_spellbooks.villager_spell_book": "圣经",
   "item.irons_spellbooks.netherite_spell_book": "远古法典",
-  "item.irons_spellbooks.diamond_spell_book": "附魔法典",
-  "item.irons_spellbooks.gold_spell_book": "学徒法典",
-  "item.irons_spellbooks.iron_spell_book": "沉重法典",
+  "item.irons_spellbooks.diamond_spell_book": "附魔之书",
+  "item.irons_spellbooks.gold_spell_book": "学徒之书",
+  "item.irons_spellbooks.iron_spell_book": "铁箍之书",
   "item.irons_spellbooks.copper_spell_book": "初学者日志",
   "item.irons_spellbooks.scroll": "法术卷轴",
   "item.irons_spellbooks.common_ink": "普通墨水",
@@ -198,7 +198,7 @@
   "ui.irons_spellbooks.frostbite_success_chance": "成功几率: %d% ",
   "ui.irons_spellbooks.charge_ready": "蓄力",
   "ui.irons_spellbooks.hits_dodged": "%d 闪避次数",
-  "ui.irons_spellbooks.cast_error_mana": "法力不足以释法 %s!",
+  "ui.irons_spellbooks.cast_error_mana": "法力不足以释放 %s!",
   "ui.irons_spellbooks.cast_error_cooldown": "%s 正在冷却当中",
   "ui.irons_spellbooks.summon_despawn_message": "%s 已经从这个世界上消失",
   "ui.irons_spellbooks.cast_error_target": "这个法术需要选定目标",
@@ -213,7 +213,7 @@
   "school.irons_spellbooks.void": "虚空",
   "school.irons_spellbooks.poison": "剧毒",
   "rarity.irons_spellbooks.common": "普通",
-  "rarity.irons_spellbooks.uncommon": "不寻常",
+  "rarity.irons_spellbooks.uncommon": "非凡",
   "rarity.irons_spellbooks.rare": "稀有",
   "rarity.irons_spellbooks.epic": "史诗",
   "rarity.irons_spellbooks.legendary": "传说",
@@ -658,12 +658,13 @@
   "tetra.material.irons_spellbooks_mana_rune_socket.prefix": "奥术符文",
   "tetra.material.irons_spellbooks_hogskin": "疣猪皮",
   "tetra.material.irons_spellbooks_hogskin.prefix": "疣猪皮",
+  
   "tetra.stats.irons_spellbooks:freeze": "冰冻",
   "tetra.stats.irons_spellbooks:freeze.tooltip_short": "命中生物时给予霜冻效果",
   "tetra.stats.irons_spellbooks:mana_siphon": "法力虹吸",
-
   "tetra.stats.irons_spellbooks:mana_siphon.tooltip_short": "将造成的伤害转化为法力值",
-  "item.apotheosis.gem.irons_spellbooks:intelligent": "超智宝石",
+  
+  "item.apotheosis.gem.irons_spellbooks:intelligent": "才智宝石",
   "item.apotheosis.gem.irons_spellbooks:fire": "狱焰宝石",
   "item.apotheosis.gem.irons_spellbooks:ice": "冰霜宝石",
   "item.apotheosis.gem.irons_spellbooks:lightning": "风暴宝石",
@@ -671,14 +672,20 @@
   "item.apotheosis.gem.irons_spellbooks:ender": "终界宝石",
   "item.apotheosis.gem.irons_spellbooks:blood": "腥红宝石",
   "item.apotheosis.gem.irons_spellbooks:evocation": "灾厄宝石",
+  "item.apotheosis.gem.irons_spellbooks:poison": "恶毒宝石",
   "item.apotheosis.gem.irons_spellbooks:cast_time": "Gem of Arcane Efficiency",
   "item.apotheosis.gem.irons_spellbooks:cooldown": "Gem of Arcane Recovery",
   "item.apotheosis.gem.irons_spellbooks:summoning": "Necromancy Gem",
   "item.apotheosis.gem.irons_spellbooks:spell_resist": "Gem of Arcane Protection",
+
+  "text.apotheosis.category.spellbook.plural": "Spellbooks",
+  
   "affix.irons_spellbooks:armor/attribute/mana": "Intelligent",
   "affix.irons_spellbooks:armor/attribute/mana.suffix": "of the Artificer",
-  "affix.irons_spellbooks:armor/attribute/cooldown": "Quick-Minded",
-  "affix.irons_spellbooks:armor/attribute/cooldown.suffix": "of the Fast-Wit"
+  "affix.irons_spellbooks:armor/attribute/cooldown": "敏捷思维",
+  "affix.irons_spellbooks:armor/attribute/cooldown.suffix": "of the Fast-Wit",
+  "affix.irons_spellbooks:spellbook/attribute/cast_time_reduction": "快速施法",
+  "affix.irons_spellbooks:spellbook/attribute/cast_time_reduction.suffix": "of the Arcane"
   
   
 }
