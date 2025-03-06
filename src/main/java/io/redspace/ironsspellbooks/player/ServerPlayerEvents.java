@@ -495,19 +495,19 @@ public class ServerPlayerEvents {
         //Attributes should never be null because all living entities have these attributes
         if (mob.getMobType() == MobType.UNDEAD) {
             //Undead take extra holy damage, and less blood (necromantic) damage
-            setIfNonNull(mob, AttributeRegistry.HOLY_MAGIC_RESIST.get(), 0.5);
-            setIfNonNull(mob, AttributeRegistry.BLOOD_MAGIC_RESIST.get(), 1.5);
+            setIfNonNull(mob, AttributeRegistry.HOLY_MAGIC_RESIST.get(), 1.0);
+            setIfNonNull(mob, AttributeRegistry.BLOOD_MAGIC_RESIST.get(), 1.0);
         } else if (mob.getMobType() == MobType.WATER) {
             //Water mobs take extra lightning damage
-            setIfNonNull(mob, AttributeRegistry.LIGHTNING_MAGIC_RESIST.get(), 0.5);
+            setIfNonNull(mob, AttributeRegistry.LIGHTNING_MAGIC_RESIST.get(), 1.0);
         }
         if (mob.fireImmune()) {
             //Fire immune (blazes, pyromancer, etc) take 50% fire damage
-            setIfNonNull(mob, AttributeRegistry.FIRE_MAGIC_RESIST.get(), 1.5);
+            setIfNonNull(mob, AttributeRegistry.FIRE_MAGIC_RESIST.get(), 1.0);
         }
         //TODO: replace this with "fire_elemental" entity tag for all fiery mobs (blaze, magma cubes, modded mobs)
         if (mob.getType() == EntityType.BLAZE) {
-            setIfNonNull(mob, AttributeRegistry.ICE_MAGIC_RESIST.get(), 0.5);
+            setIfNonNull(mob, AttributeRegistry.ICE_MAGIC_RESIST.get(), 1.0);
         }
     }
 
